@@ -87,7 +87,7 @@ public class App {
             case UPDATE -> DictionaryManagement.updateWord();
             case INSERT_FILE -> DictionaryManagement.insertFromFile();
             case SEARCH -> DictionaryManagement.searchWords();
-            case TRANSLATE_E_V -> DictionaryManagement.translafteEnToVi();
+            case TRANSLATE_E_V -> DictionaryManagement.translateEnToVi();
             case TEXT_TO_SPEECH -> DictionaryManagement.textToSpeech();
             case EXPORT_FILE -> DictionaryManagement.dictionaryExportToFile();
             case EXIT -> DictionaryManagement.exitApplication();
