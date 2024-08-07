@@ -261,4 +261,7 @@ public class DictionaryManagement {
     public static void exitApplication() {
         System.out.println("Exiting...");
     }
+
+    public static void lookUpyWord() {
+    }
 }

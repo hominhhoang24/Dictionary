@@ -1,13 +1,12 @@
 package com.example.demo;
 
-import com.sun.speech.freetts.Voice;
-import com.sun.speech.freetts.VoiceManager;
+import javazoom.jl.player.Player;
+
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import javazoom.jl.player.Player;
 
 public class TextToSpeech {
 

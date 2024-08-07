@@ -80,7 +80,7 @@ public class App {
      */
     public static void executeSelection(int option) {
         switch (option) {
-            case LOOK_UP -> DictionaryManagement.lookUpWord();
+            case LOOK_UP -> DictionaryManagement.lookUpyWord();
             case DISPLAY_WORDS -> DictionaryManagement.showWords();
             case INSERT_CMD -> DictionaryManagement.insertFromCommandline();
             case DELETE -> DictionaryManagement.deleteWord();
