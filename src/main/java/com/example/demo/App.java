@@ -80,14 +80,14 @@ public class App {
      */
     public static void executeSelection(int option) {
         switch (option) {
-            case LOOK_UP -> DictionaryManagement.lookUpyWord();
+            case LOOK_UP -> DictionaryManagement.lookUpWord();
             case DISPLAY_WORDS -> DictionaryManagement.showWords();
             case INSERT_CMD -> DictionaryManagement.insertFromCommandline();
             case DELETE -> DictionaryManagement.deleteWord();
             case UPDATE -> DictionaryManagement.updateWord();
             case INSERT_FILE -> DictionaryManagement.insertFromFile();
             case SEARCH -> DictionaryManagement.searchWords();
-            case TRANSLATE_E_V -> DictionaryManagement.translateEnToVi();
+            case TRANSLATE_E_V -> DictionaryManagement.translafteEnToVi();
             case TEXT_TO_SPEECH -> DictionaryManagement.textToSpeech();
             case EXPORT_FILE -> DictionaryManagement.dictionaryExportToFile();
             case EXIT -> DictionaryManagement.exitApplication();

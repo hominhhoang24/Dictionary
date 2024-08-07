@@ -264,4 +264,7 @@ public class DictionaryManagement {
 
     public static void lookUpyWord() {
     }
+
+    public static void translafteEnToVi() {
+    }
 }
